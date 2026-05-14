@@ -1,0 +1,37 @@
+.card {
+  background: #1A1A1A;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #D4AF37;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  color: #D4AF37;
+  margin-bottom: 0.5rem;
+}
+
+.bio {
+  font-size: 0.9rem;
+  color: #F5F5F5;
+}
